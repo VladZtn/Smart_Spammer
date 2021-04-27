@@ -3,6 +3,11 @@ from time import sleep
 from os import system
 from user_agent import generate_user_agent
 from colorama import Fore, Style
+
+# -*- coding: utf-8 -*-
+
+
+
 def logo():
     print(Fore.GREEN +"╔══╦═╦═╦══╦══╦═╦╦╗╔══╦══╦═╦╦╦══╦═╗")
     print(Fore.GREEN +"╠╗╚╣╔╣╩║║║║║║║╦╣╔╝╠╗╚╣║║║╩║╔╩╗╔╣╩║")
