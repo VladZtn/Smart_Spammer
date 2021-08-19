@@ -8,10 +8,10 @@ from colorama import Fore, Style
 
 
 
-#def logo():
- #   print(Fore.GREEN +"╔══╦═╦═╦══╦══╦═╦╦╗╔══╦══╦═╦╦╦══╦═╗")
- #   print(Fore.GREEN +"╠╗╚╣╔╣╩║║║║║║║╦╣╔╝╠╗╚╣║║║╩║╔╩╗╔╣╩║")
- #   print(Fore.GREEN +"╚══╩╝╚╩╩╩╩╩╩╩╩═╩╝─╚══╩╩╩╩╩╩╝─╚╝╚╩╝")
+def logo():
+    print(Fore.GREEN +"╔══╦═╦═╦══╦══╦═╦╦╗╔══╦══╦═╦╦╦══╦═╗")
+    print(Fore.GREEN +"╠╗╚╣╔╣╩║║║║║║║╦╣╔╝╠╗╚╣║║║╩║╔╩╗╔╣╩║")
+    print(Fore.GREEN +"╚══╩╝╚╩╩╩╩╩╩╩╩═╩╝─╚══╩╩╩╩╩╩╝─╚╝╚╩╝")
     
 
 headers = {"User-Agent": generate_user_agent()}
